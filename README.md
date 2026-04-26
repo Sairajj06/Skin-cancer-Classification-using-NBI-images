@@ -25,6 +25,60 @@ Data Preprocessing:
 - Images were augumented using Data augumentation techniques like Rotation and flips. No contrast and color change of images were done to keep originality of image.
 The dataset is not included in this repository due to size limitations and dataset usage restrictions.
 
+Model:
+
+EfficientNetB1
+Training approach:
+- The model uses EfficientNetB1 as the backbone convonutional neural network.
+- EfficientNetB1 was loaded with pretrained ImageNet weights.
+- Added custom classification layers:
+  - GlobalAveragePooling2d
+  - Dense layer (128 units, ReLU)
+  - Output layer with Softmax activation for 3 classes (BCC, SK, AK).
+Image processing:
+- Images resized to 600x600 pixels.
+- Applied EfficientNet preprocessing and normalization.
+- Used data augumentation (rotation, zoom flipping) to improve generalization.
+Training Techniques- 
+- Early stopping was used to prevent overfitting.
+- ModelCheckpoint to save the best model.
+
+Why we used EfficientNetB1 model?
+- EfficientNetB1 provides high accuracy with fewer parameters, making it efficient for image classification tasks
+- The model is pretrained on ImageNet, allowing effective transfer learning for medical image dataset
+- EfficientNet architectures are known to perform well in medical image classification tasks
+- It helps capture fine visual features in skin lesion images, which is important for detecting cancer patterns
+
+Models weight could not be added bcz of Limitation of size in Github.
+
+Results:
+
+The trained model achieved approximately:
+
+Accuracy: 78%
+Precision: 79%
+Recall: 78%
+F1 Score: 78%
+Model performance was evaluated using standard classification metrics and visualized through training accuracy and loss graphs.
+
+Technologies Used:
+- Python
+- Tensorflow/ keras
+- NumPy
+- OpenCV
+- Matplotlib
+- Scikit-learn
+
+
+Author
+
+Sairaj Jagtap
+
+B.Tech Computer Science (Artificial Intelligence & Machine Learning)
+
+Sanjivani University
+
+
 
 
 
