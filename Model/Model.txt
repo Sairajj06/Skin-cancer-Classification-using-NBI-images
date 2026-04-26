@@ -1,0 +1,8 @@
+EfficientNetB1
+Why we used EfficientNetB1 model?
+- EfficientNetB1 provides high accuracy with fewer parameters, making it efficient for image classification tasks
+- The model is pretrained on ImageNet, allowing effective transfer learning for medical image dataset
+- EfficientNet architectures are known to perform well in medical image classification tasks
+- It helps capture fine visual features in skin lesion images, which is important for detecting cancer patterns
+
+Models weight could not be added bcz of Limitation of size in Github.
