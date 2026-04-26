@@ -17,5 +17,6 @@ Data Preprocessing:
 - Normalization of pixel values.
 - Images were augumented using Data augumentation techniques like Rotation and flips. No contrast and color change of images were done to keep originality of image.
 
+The dataset is not included in this repository due to size limitations and dataset usage restrictions.
 
 
