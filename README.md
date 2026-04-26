@@ -1,59 +1,15 @@
-# Skin Cancer Classification (BCC, SK, AK) using NBI Images
-
+Skin Cancer Classification using NBI Images
 Overview
 
-This repository contains a deep learning model trained to classify skin cancer into three categories: Basal Cell Carcinoma (BCC), Seborrheic Keratosis (SK), and Actinic Keratosis (AK). The unique aspect of this project is the conversion of RGB skin lesion images into Narrow Band Imaging (NBI) images before training the model.
+This project focuses on the classification of skin cancer lesions using deep learning techniques. The goal is to build a model capable of identifying different types of skin lesions from medical images.
 
-Dataset
+The project explores the use of EfficientNetB1, a convolutional neural network architecture, to classify skin lesion images into three categories.
 
-The dataset consists of skin lesion images with three classes:
+An important aspect of this project is the use of Narrow Band Imaging (NBI) representation of skin lesion images to enhance visual features before training the model.
 
-BCC (Basal Cell Carcinoma)
+Problem Statement
 
-SK (Seborrheic Keratosis)
+Skin cancer is one of the most common forms of cancer worldwide. Early detection plays a crucial role in improving treatment outcomes. Medical image analysis using deep learning can assist dermatologists by providing automated classification of skin lesions.
 
-AK (Actinic Keratosis)
-
-The dataset is split as follows:
-
-Training Set: 70%
-
-Validation Set: 20%
-
-Test Set: 10%
-
-Methodology
-
-Image Conversion: The RGB images were converted to NBI format to enhance feature extraction.
-
-Model Architecture: EfficientNet was used as the backbone for the classification model.
-
-Training: The model was trained using TensorFlow/Keras with appropriate data augmentation techniques.
-
-Evaluation: The trained model was evaluated using accuracy, precision, recall, and F1-score.
-
-Results
-
-The model achieved an accuracy of 78% on the test dataset.
-
-Performance metrics:
-
-Precision: 79%
-
-Recall: 78%
-
-F1-Score: 78%
-
-Future Improvements
-
-Enhancing the NBI conversion process for better feature extraction.
-
-Testing with additional deep learning architectures.
-
-Expanding the dataset for improved generalization.
-
-Contributors
-
-Sairaj Jagtap (sairajjagta3@gmail.com)
-Yash Raneja (yashraneja2006@gmail.com)
+This project investigates the use of deep learning models to classify skin lesion images into different cancer categories using medical image data.
 
