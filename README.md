@@ -13,3 +13,26 @@ Skin cancer is one of the most common forms of cancer worldwide. Early detection
 
 This project investigates the use of deep learning models to classify skin lesion images into different cancer categories using medical image data.
 
+Dataset of Skin Cancer:
+Dataset consist of 3 Classes-
+- BCC: Basal Cell Carcinoma
+- SK: Seborrheic Keratosis
+- Ak: Actinic Keratosis
+
+Image format:
+- Originally image were in RGB format or they were white light image.
+- As described in the project methodology, converted the datset into Narrow Band Imaging(NBI) format before model training to enhance the feature extraction.
+
+Dataset Split:
+- Dataset was then splitted into 3 sunsets fro training and evaluation. 
+- Train , Validation, and Test with the split ratio of 70:20:10.
+
+Data Preprocessing:
+- Before training the deep learning model, images were resized to match model input requirement. 
+- Normalization of pixel values.
+- Images were augumented using Data augumentation techniques like Rotation and flips. No contrast and color change of images were done to keep originality of image.
+
+The dataset is not included in this repository due to size limitations and dataset usage restrictions.
+
+
+
