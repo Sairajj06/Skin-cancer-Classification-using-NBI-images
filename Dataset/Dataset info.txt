@@ -18,6 +18,4 @@ Data Preprocessing:
 - Normalization of pixel values.
 - Images were augumented using Data augumentation techniques like Rotation and flips. No contrast and color change of images were done to keep originality of image.
 
-Link Of the Dataset: https://www.kaggle.com/datasets/sairajjagtap01/skin-cancer-ak-sk-bcc-nbi-images
-
 
